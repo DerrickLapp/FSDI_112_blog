@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+
+{% block title %}Forbidden Operation{% endblock title %}
+
+{% block content %}
+<h1>Forbidden (403)</h1>
+<p>The page or operation you attempted has not been authorized for this user</p>
+<a href="{% url 'list' %}" class="card-link">Back</a>
+{% endblock content %}

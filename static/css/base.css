@@ -68,6 +68,38 @@ footer {
     color: #777;
 }
 
+.card {
+    margin-top: 10px;
+}
+
 .card-link {
     margin-right: 20px;
+}
+
+.deletebtn {
+    margin-right: 20px;
+}
+
+.newpostbtn {
+    margin-right: 20px;
+}
+.loginbtn {
+    margin-right: 20px;
+}
+
+.postLinks{
+    margin-right: 20px !important;
+}
+.postLinks:hover {
+    border: solid lightsteelblue 2px !important;
+    border-radius: 5px !important;
+}
+
+.postTypes {
+    margin-top: 5px;
+}
+
+.username {
+    margin-right: 15px;
+    margin-left: 15px;
 }

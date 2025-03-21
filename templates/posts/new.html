@@ -8,6 +8,7 @@
 <form method="POST">
     {% csrf_token %}
     {{ form.as_p }}
-    <input type="submit" class="btn btn-success" value="Create">
+    <input type="submit" class="btn btn-success newpostbtn" value="Create">
+    <a href="{% url 'list' %}" class="card-link">Back</a>
 </form>
 {% endblock content %}

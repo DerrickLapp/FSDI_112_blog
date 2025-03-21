@@ -8,5 +8,6 @@ urlpatterns = [
     path("list/", views.PostListView.as_view(), name="list"),
     path("<int:pk>/", views.PostDetailView.as_view(), name="detail"),
     path("new/", views.PostCreateView.as_view(), name="new"),
-
+    path("list/drafts", views.PostDraftView.as_view(), name="drafts"),
+    path("list/archives", views.PostArchiveView.as_view(), name="archives"),
 ]

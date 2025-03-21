@@ -8,6 +8,8 @@
 <p>Are you sure you'd like to delete the post: "{{ post.title }}" ?</p>
 <form method="POST">
     {% csrf_token %}
-    <input type="submit" class="btn btn-danger" value="Confirm">
+    <input type="submit" class="btn btn-danger deletebtn" value="Confirm">
+    <a href="{% url 'list' %}" class="card-link">Back</a>
+
 </form>
 {% endblock content %}
