@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load crispy_forms_tags %}
 
 
 {% block title %}Log In{% endblock title %}
@@ -7,7 +8,7 @@
 <h1>Log In</h1>
 <form method="POST">
     {% csrf_token %}
-    {{ form.as_p }}
+    {{ form | crispy }}
     <input type="submit" class="btn btn-success loginbtn" value="Log In">
     <a href="{% url 'home' %}" class="card-link">Back</a>
 </form>

@@ -15,3 +15,6 @@ template_name = "registration/password_change_form.html"
 
 Password Change Done Template Names:
 template_name = "registration/password_change_done.html"
+
+Tip for easy secret keys:
+python3 -c "import secrets; print(secrets.token_urlsafe())"

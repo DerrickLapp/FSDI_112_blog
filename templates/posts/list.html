@@ -20,7 +20,7 @@
         <h6 class="card-subtitle mb-2 text-body-secondary">{{ post.subtitle }}</h6>
         <p class="card-text">{{ post.body|truncatechars:128 }}</p>
         <h5 class="card-subtitle">By: {{ post.author }}</h5>
-        <a href="{% url 'detail' post.id %}">More Details</a>
+        <a href="{% url 'detail' post.id %}">More Details...</a>
     </div>
 </div>
 <br />
