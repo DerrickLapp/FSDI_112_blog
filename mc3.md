@@ -18,3 +18,7 @@ template_name = "registration/password_change_done.html"
 
 Tip for easy secret keys:
 python3 -c "import secrets; print(secrets.token_urlsafe())"
+
+
+If you lose blog link, in Ubuntu:
+heroku open
